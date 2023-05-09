@@ -28,7 +28,7 @@ jobs:
       - name: Set up node
         uses: actions/setup-node@v3
         with:
-          node-version: 14
+          node-version: 18
           architecture: x64
       - name: Install
         run: npm install --ignore-scripts
