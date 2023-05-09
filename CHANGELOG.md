@@ -1,5 +1,11 @@
 # Changelog
 
+## [5.3.0] - 2023-05-09
+
+### Added
+
+- Add prebuild for ARM64 on Linux
+
 ## [5.2.1] - 2022-03-25
 
 ### Fixed
