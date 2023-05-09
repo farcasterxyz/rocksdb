@@ -1,5 +1,5 @@
 {
-  "name": "rocksdb",
+  "name": "@farcaster/rocksdb",
   "version": "5.2.2",
   "description": "A low-level Node.js RocksDB binding",
   "license": "MIT",
@@ -58,9 +58,9 @@
   "gypfile": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/Level/rocksdb.git"
+    "url": "https://github.com/farcasterxyz/rocksdb.git"
   },
-  "homepage": "https://github.com/Level/rocksdb",
+  "homepage": "https://github.com/farcasterxyz/rocksdb",
   "keywords": [
     "leveldb",
     "level"
