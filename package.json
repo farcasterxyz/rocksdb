@@ -16,7 +16,6 @@
     "prebuild-linux-arm64": "prebuildify-cross -i linux-arm64 -t 8.14.0 --napi --strip",
     "prebuild-linux-x64": "prebuildify-cross -i centos7-devtoolset7 -i alpine -t 8.14.0 --napi --strip",
     "prebuild-darwin-x64+arm64": "prebuildify -t 8.14.0 --napi --strip --arch x64+arm64",
-    "prebuild-win32-x64": "prebuildify -t 8.14.0 --napi --strip",
     "download-prebuilds": "prebuildify-ci download",
     "hallmark": "hallmark fix",
     "dependency-check": "dependency-check --no-dev -i napi-macros . test/*.js",
