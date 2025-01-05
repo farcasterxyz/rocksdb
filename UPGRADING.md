@@ -66,7 +66,7 @@ The `sync` option has moved to `chainedBatch.write(options)`. Previously, `sync`
 
 ### Various segmentation faults have been fixed
 
-It is now safe to call `db.close()` before operations like `db.put()` complete, to call `db.iterator()` on a non-open db and to call `db.close()` having created many iterators regardless of their state (idle, nexting, ending or ended). To achieve this, `rocksdb` waits for pending operations before closing:
+It is now safe to call `db.close()` before operations like `db.put()` complete, to call `db.iterator()` on a non-open db and to call `db.close()` having created many iterators regardless of their state (idle, nesting, ending or ended). To achieve this, `rocksdb` waits for pending operations before closing:
 
 ```js
 db.put('key', 'value', function (err) {
